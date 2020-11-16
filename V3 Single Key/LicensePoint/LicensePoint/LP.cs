@@ -1,4 +1,4 @@
-﻿#region usings
+#region usings
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -944,7 +944,7 @@ using System.Windows.Forms;
 
                 if (File.Exists(hosts_Path))
                 {
-                    if (File.ReadAllText(hosts_Path).Contains("simpauth.xyz"))
+                    if (File.ReadAllText(hosts_Path).Contains("licensepoint.net"))
                     {
                         MessageBox.Show("DNS redirection found, closing the application...", Auth.appName, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         Environment.Exit(0);
